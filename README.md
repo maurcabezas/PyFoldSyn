@@ -1,6 +1,6 @@
 # Veeam Folder Synchronization Task
 
-This repository contains the necessary files and instructions to successfully synchronize files from a `source` folder to a `replica` folder. The program guarantees that the `replica` folder is an exact copy of the `source` folder by calculating the MD5 hashes using Python's `hashlib` library to ensure file integrity. This project is implemented in Python on a Debian 12 system.
+This repository contains the necessary files and instructions for the program to successfully synchronize files from a `source` to a `replica` folder. The program guarantees that the `replica` folder is an exact copy of the `source` folder by calculating the MD5 hashes using Python's `hashlib` library to ensure file integrity. This project is implemented in Python on a Debian 12 system.
 
 
 The operations are logged to both a log file and the terminal, including all file operations such as creation, copying, and removal. Additionally, the synchronization interval can be manually specified in seconds.
