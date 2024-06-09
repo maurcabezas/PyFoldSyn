@@ -1,9 +1,9 @@
 # Veeam Folder Synchronization Task
 
-This repository contains the necessary files and instructions for the program to successfully synchronize files from a `source` to a `replica` folder. The program guarantees that the `replica` folder is an exact copy of the `source` folder by calculating the MD5 hashes using Python's `hashlib`<a href="#">[1]</a> library to ensure file integrity. This project is implemented in Python on a Debian 12 system.
+This repository contains the necessary files and instructions for the program to successfully synchronize files from a `source` to a `replica` folder. The program guarantees that the `replica` folder is an exact copy of the `source` folder by calculating the MD5 hashes using Python's `hashlib`[1] library to ensure file integrity. This project is implemented in Python on a Debian 12 system.
 
 
-The operations are logged to both a log file and the terminal, including all file operations such as creation, copying, and removal. Additionally, the synchronization interval can be manually specified in seconds.
+The operations are logged to both a log file and the terminal, including all file operations such as creation, copying, and removal. Additionally, the synchronization interval can be manually specified (in seconds).
 
 
 ## Principal adventajes
@@ -20,7 +20,7 @@ The operations are logged to both a log file and the terminal, including all fil
 ## To Do list:
 
 - **Optional GUI**: Optional argument which will include a graphical user interface using PyQt 
-- **Notifications**: Different types of users and purposes would be able to receive notifications, for example, via email using `email.message` or by telegram with a bot. 
+- **Notifications**: Different types of users and purposes would be able to receive notifications, for example, via email using `email.message`[2] or by telegram with a bot. 
 
 
 ## How to install and use
@@ -44,3 +44,5 @@ The operations are logged to both a log file and the terminal, including all fil
 
 ## References:
 <a href="https://docs.python.org/3/library/hashlib.html">[1] https://docs.python.org/3/library/hashlib.html</a> 
+
+<a href="https://docs.python.org/3/library/email.message.html">[2] https://docs.python.org/3/library/email.message.html</a>
