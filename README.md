@@ -41,3 +41,6 @@ The operations are logged to both a log file and the terminal, including all fil
     Run the script from the command line:
     ```bash
     python FolderSync.py <source_folder_path> <replica_folder_path> <sync_interval_seconds> <log_file_path>
+
+## References:
+<a href="https://docs.python.org/3/library/hashlib.html">[1] https://docs.python.org/3/library/hashlib.html</a> 
