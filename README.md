@@ -6,7 +6,7 @@
 The operations are logged to both a log file and the terminal, including all file operations such as creation, copying, and removal. Additionally, the synchronization interval can be manually specified (in seconds).
 
 
-This project utilizes object-oriented programming (OOP) to provide a modular, scalable, and maintainable solution. This makes the code easier to manage and extend when we decide to include complex features in the future. It is also helpful for easy debugging of the code in case of errors.
+This project utilizes object-oriented programming (OOP) to provide a modular, scalable, and maintainable solution. This makes the code easier to manage and extend when we decide to include complex features in the future. It is also helpful for easy code debugging in case of errors.
 
 ## Principal adventajes
 
@@ -21,8 +21,10 @@ This project utilizes object-oriented programming (OOP) to provide a modular, sc
 
 ## To Do list:
 
-- **Optional GUI**: Optional argument which will include a graphical user interface using PyQt 
-- **Notifications**: Different types of users and purposes would be able to receive notifications, for example, via email using `email.message`[2] or by telegram with a bot. 
+- **Optional GUI**: This is an optional argument that includes a graphical user interface using `PyQt`[2].
+- **Notifications**: Different types of users and purposes would be able to receive notifications, for example, via email using `email.message`[3] or by telegram with a bot.
+- **PyTest**: Improve the testing feature using `PyTest`[4].
+- **Database Logging**: For more professional use, it is planned to log into the SQL database.
 
 
 ## How to install and use
@@ -66,5 +68,7 @@ This project utilizes object-oriented programming (OOP) to provide a modular, sc
 
 ## References:
 <a href="https://docs.python.org/3/library/hashlib.html">[1] https://docs.python.org/3/library/hashlib.html</a> 
+<a href="https://wiki.python.org/moin/PyQt">[2] https://wiki.python.org/moin/PyQt</a>
+<a href="https://docs.python.org/3/library/email.message.html">[3] https://docs.python.org/3/library/email.message.html</a>
+<a href="https://docs.pytest.org/en/8.2.x/">[4] https://docs.pytest.org/en/8.2.x/</a>
 
-<a href="https://docs.python.org/3/library/email.message.html">[2] https://docs.python.org/3/library/email.message.html</a>
