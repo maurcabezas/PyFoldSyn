@@ -1,4 +1,4 @@
-# Veeam Folder Synchronization Task
+# PyFoldSyn
 
 This repository contains the necessary files and instructions for the program to successfully synchronize files from a `source` to a `replica` folder. The program guarantees that the `replica` folder is an exact copy of the `source` folder by calculating the MD5 hashes using Python's `hashlib`[1] library to ensure file integrity. This project is implemented in Python on a Debian 12 system.
 
