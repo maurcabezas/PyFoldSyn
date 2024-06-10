@@ -14,7 +14,7 @@ This project utilizes object-oriented programming (OOP) to provide a modular, sc
 
 - **Periodic Synchronization**: Runs at a specified interval defined by the user.
 
-- **Logging**: This option logs file operations like copying, creating, and removing files to the console and a defined log file.
+- **Logging**: This option logs files operations like copying, creating/updating, and removing files to the console and a defined log file.
 
 - **Cross-Platform**: Because Python and its libraries are flexible, the program must work on any system where Python is installed.
 
@@ -48,7 +48,7 @@ This project utilizes object-oriented programming (OOP) to provide a modular, sc
     ```
 
     ### Example
-    A folder source, as example is provided in the path /test/source
+    A folder source is provided in the path /test/source
     ```bash
     python PyFoldSyn.py tests/source/ replica/ 10 log.txt
     ```
