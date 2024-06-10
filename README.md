@@ -40,13 +40,13 @@ This project utilizes object-oriented programming (OOP) to provide a modular, sc
     ### Command-Line 
     Run the script from the command line:
     ```bash
-    python PyFoldSyn.py <source_folder_path> <replica_folder_path> <sync_interval_seconds> <log_file_path>
+    python pyfoldsyn.py <source_folder_path> <replica_folder_path> <sync_interval_seconds> <log_file_path>
     ```
 
     ### Example
     A folder source is provided in the path /test/source
     ```bash
-    python PyFoldSyn.py tests/source/ replica/ 10 log.txt
+    python pyfoldsyn.py tests/source/ replica/ 10 log.txt
     ```
     In this example, we synchronised the test folder source periodically every 10 seconds (a short period of time is recommended for the test). In the terminal and in the file 'log.txt' we can see:
 
