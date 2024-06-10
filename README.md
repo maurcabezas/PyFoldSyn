@@ -64,7 +64,10 @@ This project utilizes object-oriented programming (OOP) to provide a modular, sc
 
 ## References:
 <a href="https://docs.python.org/3/library/hashlib.html">[1] https://docs.python.org/3/library/hashlib.html</a> 
+
 <a href="https://wiki.python.org/moin/PyQt">[2] https://wiki.python.org/moin/PyQt</a>
+
 <a href="https://docs.python.org/3/library/email.message.html">[3] https://docs.python.org/3/library/email.message.html</a>
+
 <a href="https://docs.pytest.org/en/8.2.x/">[4] https://docs.pytest.org/en/8.2.x/</a>
 
