@@ -6,6 +6,8 @@ This repository contains the necessary files and instructions for the program to
 The operations are logged to both a log file and the terminal, including all file operations such as creation, copying, and removal. Additionally, the synchronization interval can be manually specified (in seconds).
 
 
+This project utilizes object-oriented programming (OOP) to provide a modular, scalable, and maintainable solution. This makes the code easier to manage and extend when we decide to include complex features in the future.
+
 ## Principal adventajes
 
 - **One-way and accurate synchronization**: The program synchronizes the folder source's contents exactly and identically to the folder replica using the MD5 hash calculations for verification.
