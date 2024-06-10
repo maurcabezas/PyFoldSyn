@@ -25,6 +25,8 @@ This project utilizes object-oriented programming (OOP) to provide a modular, sc
 - **Notifications**: Different types of users and purposes would be able to receive notifications, for example, via email using `email.message`[3] or by telegram with a bot.
 - **PyTest**: Improve the testing feature using `PyTest`[4].
 - **Database Logging**: For more professional use, it is planned to log into the SQL database.
+- **Web Service**: Add the option to use the program as a web service using Django.
+- **Cloud Storage**: Integrate the program with some cloud service to be able to synchronize files in a cloud.
 
 
 ## How to install and use
