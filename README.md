@@ -1,12 +1,12 @@
 # PyFoldSyn
 
-This repository contains the necessary files and instructions for the program to successfully synchronize files from a `source` to a `replica` folder. The program guarantees that the `replica` folder is an exact copy of the `source` folder by calculating the MD5 hashes using Python's `hashlib`[1] library to ensure file integrity. This project is implemented in Python on a Debian 12 system.
+**PyFoldSyn** is a repository that contains the necessary files and instructions for the **Python Folder Synchronizer** program to successfully synchronize files from a `source` to a `replica` folder. The program guarantees that the `replica` folder is an exact copy of the `source` folder by calculating the MD5 hashes using Python's `hashlib`[1] library to ensure file integrity. This program was created and thoroughly tested on a Debian 12 system.
 
 
 The operations are logged to both a log file and the terminal, including all file operations such as creation, copying, and removal. Additionally, the synchronization interval can be manually specified (in seconds).
 
 
-This project utilizes object-oriented programming (OOP) to provide a modular, scalable, and maintainable solution. This makes the code easier to manage and extend when we decide to include complex features in the future.
+This project utilizes object-oriented programming (OOP) to provide a modular, scalable, and maintainable solution. This makes the code easier to manage and extend when we decide to include complex features in the future. It is also helpful for easy debugging of the code in case of errors.
 
 ## Principal adventajes
 
@@ -29,8 +29,8 @@ This project utilizes object-oriented programming (OOP) to provide a modular, sc
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/maurcabezas/synch_task.git
-    cd synch_task
+    git clone https://github.com/maurcabezas/pyfoldsyn.git
+    cd pyfoldsyn
     ```
 
 2. Install the dependencies:
@@ -42,13 +42,13 @@ This project utilizes object-oriented programming (OOP) to provide a modular, sc
     ### Command-Line 
     Run the script from the command line:
     ```bash
-    python FolderSync.py <source_folder_path> <replica_folder_path> <sync_interval_seconds> <log_file_path>
+    python PyFoldSyn.py <source_folder_path> <replica_folder_path> <sync_interval_seconds> <log_file_path>
     ```
 
     ### Example
     A folder source, as example is provided in the path /test/source
     ```bash
-    python FolderSync.py tests/source/ replica/ 10 log.txt
+    python PyFoldSyn.py tests/source/ replica/ 10 log.txt
     ```
     In this example, we synchronised the test folder source periodically every 10 seconds (a short period of time is recommended for the test). In the terminal and in the file 'log.txt' we can see:
 
