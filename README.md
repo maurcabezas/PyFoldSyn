@@ -35,11 +35,7 @@ This project utilizes object-oriented programming (OOP) to provide a modular, sc
     cd pyfoldsyn
     ```
 
-2. Install the dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-3. Using:
+2. Using:
 
     ### Command-Line 
     Run the script from the command line:
